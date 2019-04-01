@@ -4,9 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>111</groupId>
-    <artifactId>111</artifactId>
+    <groupId>Nata</groupId>
+    <artifactId>project-1</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <junit.version>4.12</junit.version>
+    </properties>
+
     <!-- https://mvnrepository.com/artifact/junit/junit -->
     <dependencies>
         <dependency>
@@ -16,7 +21,5 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-    <properties>
-        <junit.version>4.12</junit.version>
-    </properties>
+
 </project>
