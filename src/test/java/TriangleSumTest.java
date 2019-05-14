@@ -28,15 +28,16 @@ public class TriangleSumTest {
                 new Object[]{0, 0, 0, false},
                 new Object[]{1, 1, 1, true},
                 new Object[]{-2, -1, 1, false},
-                new Object[]{3, 4, -5, false}
+                new Object[]{3, 4, -5, false},
+                new Object[]{2, 4, 4, true}
 
         );
     }
 
     @Test
     public void TriangleSum() {
-        Triangle Triangle = new Triangle();
-        boolean actual = Triangle.TriangleSum(a, b, c);
+        Triangle triangle = new Triangle();
+        boolean actual = triangle.TriangleSum(a, b, c);
         assertEquals(expected, actual);
     }
 }
