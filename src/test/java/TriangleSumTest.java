@@ -36,8 +36,8 @@ public class TriangleSumTest {
 
     @Test
     public void TriangleSum() {
-        Triangle triangle = new Triangle();
-        boolean actual = triangle.TriangleSum(a, b, c);
+        Triangle Triangle = new Triangle();
+        boolean actual = Triangle.TriangleSum(a, b, c);
         assertEquals(expected, actual);
     }
 }
