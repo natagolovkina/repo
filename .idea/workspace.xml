@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4aa9c4a3-3761-462d-9e70-5707b69ffabd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SearchOffers/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SearchOffers/MainSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SearchOffers/WebDriverTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiexample/GithubClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiexample/GithubTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiexample/JsonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiexample/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiexample/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/rest_assured/AssertJ_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/rest_assured/GitHubTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/users.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/natagolovkina/MainSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/natagolovkina/MainSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/natagolovkina/WebDriverTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/natagolovkina/WebDriverTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SearchOffers/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchOffers/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SearchOffers/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SearchOffers/MainPage.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,13 +25,27 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Project2$TriangleSumTest.ic" NAME="TriangleSumTest Coverage Results" MODIFIED="1554387736472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SearchOffers/MainSteps.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/rest_assured/GitHubTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+            <state relative-caret-position="328">
+              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,25 +54,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SearchOffers/WebDriverTest.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SearchOffers/MainPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1139">
+              <caret line="67" column="36" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -62,8 +67,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="JavaFXApplication" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -82,13 +88,25 @@
         <option value="$PROJECT_DIR$/src/test/java/TriangleSumTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/WebDriverTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/natagolovkina/WebDriverRule.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/natagolovkina/WebDriverTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/natagolovkina/MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/natagolovkina/MainSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/SearchOffers/MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/SearchOffers/WebDriverTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SearchOffers/MainSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/users.json" />
+        <option value="$PROJECT_DIR$/src/test/java/api-example/User.java" />
+        <option value="$PROJECT_DIR$/src/test/java/api-example/JsonTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/api-example/GithubTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/apiexample/User.java" />
+        <option value="$PROJECT_DIR$/src/test/java/apiexample/Repository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/apiexample/JsonTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/apiexample/GithubClient.java" />
+        <option value="$PROJECT_DIR$/src/test/java/apiexample/GithubTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/rest_assured/restassured.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/rest_assured/AssertJ_Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/rest_assured/GitHubTest.java" />
       </list>
     </option>
   </component>
@@ -102,10 +120,10 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="1890" />
-    <option name="height" value="1020" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1943" />
+    <option name="height" value="1043" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -113,6 +131,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,13 +154,6 @@
               <item name="_111" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-learn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="_111" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -157,21 +169,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="natagolovkina" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="_111" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SearchOffers" type="462c0819:PsiDirectoryNode" />
+              <item name="rest_assured" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -179,13 +182,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559752590180" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563285232454" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="xpath.settings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="apiexample" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="SearchOffers" />
     </key>
@@ -202,11 +211,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WebDriverTest (1)">
-    <configuration name="TriangleSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GitHubTest.testRepositories">
+    <configuration name="GitHubTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="my-learn" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TriangleSumTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rest_assured.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rest_assured" />
+      <option name="MAIN_CLASS_NAME" value="rest_assured.GitHubTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GitHubTest.testRepositories" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rest_assured.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rest_assured" />
+      <option name="MAIN_CLASS_NAME" value="rest_assured.GitHubTest" />
+      <option name="METHOD_NAME" value="testRepositories" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GithubTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-learn" />
+      <option name="PACKAGE_NAME" value="apiexample" />
+      <option name="MAIN_CLASS_NAME" value="GithubTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-learn" />
+      <option name="PACKAGE_NAME" value="api-example" />
+      <option name="MAIN_CLASS_NAME" value="JsonTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -227,47 +276,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebDriverTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="my-learn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="natagolovkina.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="natagolovkina" />
-      <option name="MAIN_CLASS_NAME" value="natagolovkina.WebDriverTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="calculatorSumTest.calculatorSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="111" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="calculatorSumTest" />
-      <option name="METHOD_NAME" value="calculatorSum" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="calculatorSupTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="111" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="calculatorSupTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GitHubTest.testRepositories" />
+        <item itemvalue="JUnit.GitHubTest" />
+        <item itemvalue="JUnit.GithubTest" />
+        <item itemvalue="JUnit.JsonTest" />
         <item itemvalue="JUnit.WebDriverTest (1)" />
-        <item itemvalue="JUnit.WebDriverTest" />
-        <item itemvalue="JUnit.TriangleSumTest" />
-        <item itemvalue="JUnit.calculatorSupTest" />
-        <item itemvalue="JUnit.calculatorSumTest.calculatorSum" />
       </list>
     </recent_temporary>
   </component>
@@ -286,49 +301,64 @@
       <workItem from="1557931031605" duration="4642000" />
       <workItem from="1558965496810" duration="4997000" />
       <workItem from="1559208811380" duration="23687000" />
-      <workItem from="1559751756161" duration="907000" />
+      <workItem from="1559751756161" duration="1779000" />
+      <workItem from="1559809741512" duration="4384000" />
+      <workItem from="1560440025068" duration="1250000" />
+      <workItem from="1560441328099" duration="4004000" />
+      <workItem from="1560846796764" duration="1318000" />
+      <workItem from="1561108415857" duration="618000" />
+      <workItem from="1561110600965" duration="685000" />
+      <workItem from="1561111869181" duration="597000" />
+      <workItem from="1561368644308" duration="597000" />
+      <workItem from="1561466402908" duration="714000" />
+      <workItem from="1562256491738" duration="5438000" />
+      <workItem from="1562340365353" duration="1023000" />
+      <workItem from="1562342256995" duration="559000" />
+      <workItem from="1562663214433" duration="1211000" />
+      <workItem from="1562839623234" duration="597000" />
+      <workItem from="1563283823509" duration="1663000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WebDriverTest_(1) - 2019.05.31 at 17h 07m 33s.xml">
-      <configuration name="WebDriverTest (1)" configurationId="JUnit" />
+    <history-entry file="GitHubTest_testRepositories - 2019.07.04 at 19h 31m 05s.xml">
+      <configuration name="GitHubTest.testRepositories" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WebDriverTest_(1) - 2019.05.31 at 17h 08m 56s.xml">
-      <configuration name="WebDriverTest (1)" configurationId="JUnit" />
+    <history-entry file="GitHubTest - 2019.07.04 at 20h 07m 23s.xml">
+      <configuration name="GitHubTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WebDriverTest_(1) - 2019.05.31 at 17h 12m 38s.xml">
-      <configuration name="WebDriverTest (1)" configurationId="JUnit" />
+    <history-entry file="GitHubTest - 2019.07.04 at 20h 11m 41s.xml">
+      <configuration name="GitHubTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WebDriverTest_(1) - 2019.05.31 at 17h 17m 12s.xml">
-      <configuration name="WebDriverTest (1)" configurationId="JUnit" />
+    <history-entry file="GitHubTest - 2019.07.04 at 20h 13m 05s.xml">
+      <configuration name="GitHubTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WebDriverTest_(1) - 2019.05.31 at 17h 20m 58s.xml">
-      <configuration name="WebDriverTest (1)" configurationId="JUnit" />
+    <history-entry file="GitHubTest - 2019.07.04 at 20h 14m 19s.xml">
+      <configuration name="GitHubTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WebDriverTest_(1) - 2019.06.05 at 16h 52m 17s.xml">
-      <configuration name="WebDriverTest (1)" configurationId="JUnit" />
+    <history-entry file="GitHubTest - 2019.07.04 at 20h 21m 06s.xml">
+      <configuration name="GitHubTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WebDriverTest_(1) - 2019.06.05 at 16h 59m 15s.xml">
-      <configuration name="WebDriverTest (1)" configurationId="JUnit" />
+    <history-entry file="GitHubTest - 2019.07.04 at 20h 21m 23s.xml">
+      <configuration name="GitHubTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WebDriverTest_(1) - 2019.06.05 at 17h 13m 24s.xml">
-      <configuration name="WebDriverTest (1)" configurationId="JUnit" />
+    <history-entry file="GitHubTest_testRepositories - 2019.07.16 at 16h 51m 01s.xml">
+      <configuration name="GitHubTest.testRepositories" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WebDriverTest_(1) - 2019.06.05 at 17h 15m 33s.xml">
-      <configuration name="WebDriverTest (1)" configurationId="JUnit" />
+    <history-entry file="GitHubTest_testRepositories - 2019.07.16 at 16h 52m 48s.xml">
+      <configuration name="GitHubTest.testRepositories" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WebDriverTest_(1) - 2019.06.05 at 17h 30m 01s.xml">
-      <configuration name="WebDriverTest (1)" configurationId="JUnit" />
+    <history-entry file="GitHubTest_testRepositories - 2019.07.16 at 16h 53m 21s.xml">
+      <configuration name="GitHubTest.testRepositories" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52422000" />
+    <option name="totallyTimeSpent" value="77952000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28178138" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23238866" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -337,30 +367,34 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.124333926" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959514" weight="0.5559503" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.38010657" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.22912966" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50040483" side_tool="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49959514" weight="0.38898757" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3250444" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32972974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24939272" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.17894737" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.024291499" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32955465" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -403,27 +437,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/calculatorSumTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -433,18 +450,6 @@
           <caret line="8" column="22" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/natagolovkina/WebDriverTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -477,10 +482,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SearchOffers/MainPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/api-example/JsonTest" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/SearchOffers/MainSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        <state relative-caret-position="425">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -489,21 +495,119 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SearchOffers/WebDriverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        <state relative-caret-position="255">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SearchOffers/MainSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SearchOffers/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+        <state relative-caret-position="425">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/users.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/calculatorSumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/natagolovkina/WebDriverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/api-example/GithubClient.interface" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/apiexample/GithubClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/apiexample/Repository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/apiexample/JsonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/apiexample/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/apiexample/GithubTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/rest_assured/AssertJ_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/rest_assured/GitHubTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="67" column="36" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -521,9 +625,81 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>my-learn</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

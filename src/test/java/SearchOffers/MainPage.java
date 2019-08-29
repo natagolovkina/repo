@@ -22,5 +22,7 @@ public interface MainPage extends WebPage {
         HtmlElement SelectMark();
         @FindBy("//span[contains(@class, 'ButtonWithLoader__content') and contains(., 'Показать')]")
         HtmlElement ViewOffers();
+        @FindBy(".//div[contains(@class, 'TextAreaAutoresize__icon-wrapper')]")
+        HtmlElement sendCommentButton();
 
 }
