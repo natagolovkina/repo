@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4aa9c4a3-3761-462d-9e70-5707b69ffabd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java/lang/annotations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/natagolovkina/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/natagolovkina/MainSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/natagolovkina/WebDriverRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/natagolovkina/WebDriverTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Bitbucket/BitbucketClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Bitbucket/CreateIssue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Bitbucket/Issue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TriangleSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TriangleSumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TriangleSumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TriangleSumTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/natagolovkina/MainSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/natagolovkina/MainSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/natagolovkina/WebDriverTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/natagolovkina/WebDriverTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,53 +21,65 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Project2$TriangleSumTest.ic" NAME="TriangleSumTest Coverage Results" MODIFIED="1554387736472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/natagolovkina/WebDriverTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#495#496#0" expanded="true" />
-                <element signature="e#560#561#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/natagolovkina/MainPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="43" />
+            <state relative-caret-position="465">
+              <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Bitbucket/CreateIssue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/natagolovkina/MainSteps.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Bitbucket/Issue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#392#393#0" expanded="true" />
-                <element signature="e#646#647#0" expanded="true" />
-                <element signature="e#687#688#0" expanded="true" />
+                <element signature="e#69#70#0" expanded="true" />
+                <element signature="e#99#100#0" expanded="true" />
+                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#156#157#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Bitbucket/BitbucketClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,7 +90,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaFXApplication" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -98,10 +111,29 @@
         <option value="$PROJECT_DIR$/src/test/java/TriangleSumTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/WebDriverTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/natagolovkina/WebDriverRule.java" />
-        <option value="$PROJECT_DIR$/src/test/java/natagolovkina/MainSteps.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/natagolovkina/MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/natagolovkina/WebDriverTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/natagolovkina/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/natagolovkina/MainSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SearchOffers/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SearchOffers/WebDriverTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SearchOffers/MainSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/users.json" />
+        <option value="$PROJECT_DIR$/src/test/java/api-example/User.java" />
+        <option value="$PROJECT_DIR$/src/test/java/api-example/JsonTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/api-example/GithubTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/apiexample/User.java" />
+        <option value="$PROJECT_DIR$/src/test/java/apiexample/Repository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/apiexample/JsonTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/apiexample/GithubClient.java" />
+        <option value="$PROJECT_DIR$/src/test/java/apiexample/GithubTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/rest_assured/restassured.java" />
+        <option value="$PROJECT_DIR$/src/test/java/rest_assured/AssertJ_Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/rest_assured/GitHubTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Bitbucket/User.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/Bitbucket/Issue.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Bitbucket/BitbucketClient.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Bitbucket/CreateIssue.java" />
       </list>
     </option>
   </component>
@@ -114,11 +146,11 @@
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="324" />
-    <option name="y" value="-18" />
-    <option name="width" value="1890" />
-    <option name="height" value="1020" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1439" />
+    <option name="y" value="-26" />
+    <option name="width" value="864" />
+    <option name="height" value="464" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -126,7 +158,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -150,13 +181,6 @@
               <item name="_111" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-learn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="_111" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -172,23 +196,35 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="natagolovkina" type="462c0819:PsiDirectoryNode" />
+              <item name="Bitbucket" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555954050132" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567159435303" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="xpath.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="apiexample" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="SearchOffers" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -202,54 +238,73 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WebDriverTest">
-    <configuration name="TriangleSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="my-learn" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TriangleSumTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WebDriverTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CreateIssue">
+    <configuration name="CreateIssue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="my-learn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="natagolovkina.*" />
+          <option name="PATTERN" value="Bitbucket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="natagolovkina" />
-      <option name="MAIN_CLASS_NAME" value="natagolovkina.WebDriverTest" />
+      <option name="PACKAGE_NAME" value="Bitbucket" />
+      <option name="MAIN_CLASS_NAME" value="Bitbucket.CreateIssue" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="calculatorSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="111" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="calculatorSumTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="calculatorSumTest.calculatorSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="111" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="calculatorSumTest" />
-      <option name="METHOD_NAME" value="calculatorSum" />
+    <configuration name="CreateIssue.testRepositories" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Bitbucket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Bitbucket" />
+      <option name="MAIN_CLASS_NAME" value="Bitbucket.CreateIssue" />
+      <option name="METHOD_NAME" value="testRepositories" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="calculatorSupTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="111" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="calculatorSupTest" />
+    <configuration name="GitHubTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rest_assured.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rest_assured" />
+      <option name="MAIN_CLASS_NAME" value="rest_assured.GitHubTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GitHubTest.testRepositories" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rest_assured.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rest_assured" />
+      <option name="MAIN_CLASS_NAME" value="rest_assured.GitHubTest" />
+      <option name="METHOD_NAME" value="testRepositories" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GithubTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-learn" />
+      <option name="PACKAGE_NAME" value="apiexample" />
+      <option name="MAIN_CLASS_NAME" value="GithubTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -257,11 +312,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WebDriverTest" />
-        <item itemvalue="JUnit.TriangleSumTest" />
-        <item itemvalue="JUnit.calculatorSupTest" />
-        <item itemvalue="JUnit.calculatorSumTest.calculatorSum" />
-        <item itemvalue="JUnit.calculatorSumTest" />
+        <item itemvalue="JUnit.CreateIssue" />
+        <item itemvalue="JUnit.CreateIssue.testRepositories" />
+        <item itemvalue="JUnit.GitHubTest.testRepositories" />
+        <item itemvalue="JUnit.GitHubTest" />
+        <item itemvalue="JUnit.GithubTest" />
       </list>
     </recent_temporary>
   </component>
@@ -276,49 +331,70 @@
       <option name="presentableId" value="Default" />
       <updated>1553862846000</updated>
       <workItem from="1553862847225" duration="10684000" />
-      <workItem from="1556185508312" duration="1419000" />
+      <workItem from="1556185508312" duration="1841000" />
+      <workItem from="1557931031605" duration="4642000" />
+      <workItem from="1558965496810" duration="4997000" />
+      <workItem from="1559208811380" duration="23687000" />
+      <workItem from="1559751756161" duration="1779000" />
+      <workItem from="1559809741512" duration="4384000" />
+      <workItem from="1560440025068" duration="1250000" />
+      <workItem from="1560441328099" duration="4004000" />
+      <workItem from="1560846796764" duration="1318000" />
+      <workItem from="1561108415857" duration="618000" />
+      <workItem from="1561110600965" duration="685000" />
+      <workItem from="1561111869181" duration="597000" />
+      <workItem from="1561368644308" duration="597000" />
+      <workItem from="1561466402908" duration="714000" />
+      <workItem from="1562256491738" duration="5438000" />
+      <workItem from="1562340365353" duration="1023000" />
+      <workItem from="1562342256995" duration="559000" />
+      <workItem from="1562663214433" duration="1211000" />
+      <workItem from="1562839623234" duration="597000" />
+      <workItem from="1563283823509" duration="1663000" />
+      <workItem from="1567079673854" duration="18625000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="calculatorTest_calculatorSum - 2019.04.02 at 17h 59m 48s.xml">
-      <configuration name="calculatorTest.calculatorSum" configurationId="JUnit" />
+    <history-entry file="CreateIssue - 2019.08.29 at 17h 46m 05s.xml">
+      <configuration name="CreateIssue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="calculatorSupTest - 2019.04.02 at 18h 09m 13s.xml">
-      <configuration name="calculatorSupTest" configurationId="JUnit" />
+    <history-entry file="CreateIssue - 2019.08.29 at 17h 50m 14s.xml">
+      <configuration name="CreateIssue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="calculatorSupTest - 2019.04.02 at 18h 10m 15s.xml">
-      <configuration name="calculatorSupTest" configurationId="JUnit" />
+    <history-entry file="CreateIssue - 2019.08.29 at 17h 52m 58s.xml">
+      <configuration name="CreateIssue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleSumTest - 2019.04.17 at 18h 10m 57s.xml">
-      <configuration name="TriangleSumTest" configurationId="JUnit" />
+    <history-entry file="CreateIssue - 2019.08.29 at 18h 01m 52s.xml">
+      <configuration name="CreateIssue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleSumTest - 2019.04.22 at 18h 39m 41s.xml">
-      <configuration name="TriangleSumTest" configurationId="JUnit" />
+    <history-entry file="CreateIssue - 2019.08.29 at 18h 03m 18s.xml">
+      <configuration name="CreateIssue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WebDriverTest - 2019.04.22 at 18h 40m 02s.xml">
-      <configuration name="WebDriverTest" configurationId="JUnit" />
+    <history-entry file="CreateIssue - 2019.08.30 at 12h 21m 28s.xml">
+      <configuration name="CreateIssue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WebDriverTest - 2019.04.22 at 18h 43m 20s.xml">
-      <configuration name="WebDriverTest" configurationId="JUnit" />
+    <history-entry file="CreateIssue - 2019.08.30 at 12h 21m 50s.xml">
+      <configuration name="CreateIssue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WebDriverTest - 2019.04.22 at 19h 02m 06s.xml">
-      <configuration name="WebDriverTest" configurationId="JUnit" />
+    <history-entry file="CreateIssue - 2019.08.30 at 12h 40m 43s.xml">
+      <configuration name="CreateIssue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WebDriverTest - 2019.04.22 at 19h 03m 33s.xml">
-      <configuration name="WebDriverTest" configurationId="JUnit" />
+    <history-entry file="CreateIssue - 2019.08.30 at 12h 59m 00s.xml">
+      <configuration name="CreateIssue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WebDriverTest - 2019.04.22 at 19h 37m 37s.xml">
-      <configuration name="WebDriverTest" configurationId="JUnit" />
+    <history-entry file="CreateIssue - 2019.08.30 at 12h 59m 23s.xml">
+      <configuration name="CreateIssue" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17767000" />
+    <option name="totallyTimeSpent" value="96577000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27125505" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15565032" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -327,61 +403,34 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28596804" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49959514" visible="true" weight="0.4073673" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.39253998" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.115926325" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50040483" side_tool="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49959514" weight="0.38898757" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3250444" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24939272" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.17894737" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.015991472" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32955465" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26639676" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Image Layers" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28596804" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.39253998" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3250444" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -424,6 +473,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/natagolovkina/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/natagolovkina/MainSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" column="94" selection-start-line="20" selection-start-column="85" selection-end-line="20" selection-end-column="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/natagolovkina/WebDriverRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/api-example/JsonTest" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/SearchOffers/MainSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SearchOffers/WebDriverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SearchOffers/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/users.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/calculatorSumTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -434,31 +566,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/natagolovkina/WebDriverRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/natagolovkina/WebDriverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        <state relative-caret-position="476">
+          <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#495#496#0" expanded="true" />
@@ -467,32 +578,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/natagolovkina/MainPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/api-example/GithubClient.interface" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/rest_assured/AssertJ_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/apiexample/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/apiexample/Repository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/apiexample/JsonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/apiexample/GithubTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="43" />
+        <state relative-caret-position="-68">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/natagolovkina/MainSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/apiexample/GithubClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        <state relative-caret-position="204">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding>
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#687#688#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/rest_assured/GitHubTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Bitbucket/BitbucketClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Bitbucket/Issue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#69#70#0" expanded="true" />
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#156#157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Bitbucket/CreateIssue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -511,9 +698,81 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>my-learn</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
