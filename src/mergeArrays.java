@@ -15,49 +15,51 @@ public class mergeArrays {
         LEN_a1 = Array.getLength(a1);
         LEN_a2 = Array.getLength(a2);
         int[] rez = new int[LEN_a1 + LEN_a2];
-        out.println(Arrays.toString(rez));
         LEN_REZ = Array.getLength(rez);
         for (i = 0; i < LEN_REZ; i++) {
-            if (j >= LEN_a1) { //если конец массива j
-                rez[i] = a2[k];
-                i++;
-            }
 
-            if (k >= LEN_a2) { //если конец массива k
-                rez[i] = a1[j];
-                i++;
-
-            } else { //если не конец массива
-                if (j >= k) {       //если первый элемент j больше
+            if ((j < LEN_a1) && (k < LEN_a2)) { //если не конец обоих массивов
+                if (a1[j] <= a2[k]) {
                     rez[i] = a1[j];
-                    rez[i + 1] = a2[k];
-                    i++;
-                    if (j < LEN_a1) {
+                    if (j<=(LEN_a1-1)){
                         j++;
                     }
-                    if (k < LEN_a2) {
-                        k++;
-                    }
-                } else {          //если первый элемент k больше
-                    rez[i] = a1[k];
-                    rez[i + 1] = a2[j];
-                    i++;
-                    if (j < LEN_a1) {
-                        j++;
-                    }
-                    if (k < LEN_a2) {
+                } else {
+                    rez[i] = a2[k];
+                    if (k<=(LEN_a2-1)){
                         k++;
                     }
                 }
+                continue;
+            }
+
+            if ((j < LEN_a1) && (k >= LEN_a2)) { //если конец массива k
+                rez[i] = a1[j];
+                if (j<(LEN_a1-1)){
+                    j++;
+                }
+                continue;
+            }
+
+            if ((k < LEN_a1) && (j >= LEN_a2)) { //если конец массива j
+                rez[i] = a2[k];
+                if (k<(LEN_a2-1)){
+                    k++;
+                }
+                continue;
+            }
+
+            if ((j > LEN_a1) && (k > LEN_a2)){ // если конец всего
+                continue;
             }
         }
-
+        out.println(Arrays.toString(rez));
         return rez;
     }
 
     public static void main(String[] args) {
-        int[] a1 = new int[]{1, 3, 5, 7};
-        int[] a2 = new int[]{2};
+        int[] a1 = new int[]{1, 3};
+        int[] a2 = new int[]{2, 4, 6};
         mergeArrays(a1, a2);
     }
 }
